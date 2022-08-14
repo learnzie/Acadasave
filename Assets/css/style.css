@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+  background-color: #ffffff;
+  color: grey;
+}
+
+section {
+  width: 90%;
+  margin: auto;
+}
+
+section nav .navbar-toggler {
+  border: 1px solid #745abf;
+}
+
+section nav .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+section nav a .iconify {
+  color: #d16569;
+}
+
+section nav a .acadasave {
+  color: black;
+  font-weight: 500;
+}
+
+section nav ul.navbar-nav {
+  padding-left: 20rem;
+}
+
+section nav ul.navbar-nav li a {
+  color: grey;
+}
+
+section nav span a {
+  color: grey;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
+section .contain {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-image: url("../images/WhatsApp Image 2022-07-10 at 8.07.57 PM.jpeg");
+  background-size: 30rem;
+  background-repeat: no-repeat;
+  background-position: right 00px;
+}
+
+section .contain .col {
+  padding-top: 6rem;
+}
+
+section .contain .col h1 {
+  color: #27014c;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+section .contain .col p {
+  margin-bottom: 2rem;
+}
+
+section .contain .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+  gap: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5rem;
+}
+
+section .contain .d-flex .col {
+  text-align: center;
+  background: #fff;
+  border-radius: 1.2rem;
+  padding: 2rem 2rem;
+  -webkit-box-shadow: 0px 8px 20px rgba(42, 45, 133, 0.1);
+          box-shadow: 0px 8px 20px rgba(42, 45, 133, 0.1);
+}
+
+section .contain .d-flex .col img {
+  width: 8rem;
+}
+
+section .contain .d-flex .col h2 {
+  color: #27014c;
+}
+
+section a.btn {
+  background-color: #745abf;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  section nav ul.navbar-nav {
+    padding-left: 0rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-text {
+    display: -ms-inline-grid;
+    display: inline-grid;
+  }
+}
+
+@media (max-width: 500px) {
+  section .contain {
+    background-size: 20rem;
+    background-position: center 00px;
+  }
+  section .contain .col.null {
+    padding-top: 15rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
